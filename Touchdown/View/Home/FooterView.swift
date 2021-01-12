@@ -14,6 +14,7 @@ import SwiftUI
 
 struct FooterView: View {
     var body: some View {
+       
         VStack (alignment: .center, spacing: 10){
             Text("We offer the most cuttingedge, comfortable, lightweight and durable football helmets in the market at affordable prices.")
                 .foregroundColor(.gray)

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		359E669625ADA234007A4574 /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359E669525ADA234007A4574 /* NavigationBarView.swift */; };
+		359E669D25ADA4BD007A4574 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359E669C25ADA4BD007A4574 /* LogoView.swift */; };
 		35D14B6325A8183D00ADB2C8 /* TouchdownApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D14B6225A8183D00ADB2C8 /* TouchdownApp.swift */; };
 		35D14B6525A8183D00ADB2C8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D14B6425A8183D00ADB2C8 /* ContentView.swift */; };
 		35D14B6725A8183F00ADB2C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35D14B6625A8183F00ADB2C8 /* Assets.xcassets */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		359E669525ADA234007A4574 /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
+		359E669C25ADA4BD007A4574 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
 		35D14B5F25A8183D00ADB2C8 /* Touchdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Touchdown.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35D14B6225A8183D00ADB2C8 /* TouchdownApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchdownApp.swift; sourceTree = "<group>"; };
 		35D14B6425A8183D00ADB2C8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -101,6 +105,8 @@
 			isa = PBXGroup;
 			children = (
 				35D14B8125A81ADD00ADB2C8 /* FooterView.swift */,
+				359E669525ADA234007A4574 /* NavigationBarView.swift */,
+				359E669C25ADA4BD007A4574 /* LogoView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -205,9 +211,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				35D14B6525A8183D00ADB2C8 /* ContentView.swift in Sources */,
+				359E669D25ADA4BD007A4574 /* LogoView.swift in Sources */,
 				35D14B8225A81ADD00ADB2C8 /* FooterView.swift in Sources */,
 				35D14B6325A8183D00ADB2C8 /* TouchdownApp.swift in Sources */,
 				35D14B7E25A819F200ADB2C8 /* Constant.swift in Sources */,
+				359E669625ADA234007A4574 /* NavigationBarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
