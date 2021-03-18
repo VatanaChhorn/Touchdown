@@ -15,6 +15,7 @@ struct ContentView: View {
         
         ZStack {
             VStack (spacing: 0) {
+                
                 // MARK: - NavigationBarView
                 NavigationBarView()
                     .padding(.horizontal, 15)
@@ -26,14 +27,29 @@ struct ContentView: View {
                 // MARK: - ScrollView
                 ScrollView(.vertical, showsIndicators: false, content: {
                     VStack (spacing: 0) {
+                        
                         // MARK: - FeatureTapView
                         FeatureTapView()
                             .padding(.vertical, 16)
+                        
                         // MARK: - CategoryGridView
                         CategoryGridView()
+                        
+                        // MARK: - TITLE VIEW
+                        TitleView(title: "Helmet")
+                        
+                        LazyVGrid(columns: gridLayout, alignment: .center, spacing: 15, pinnedViews: [], content: {
+                            ForEach (products) {
+                                product in
+                                ProductItemView(product: product)
+                            }
+                        })  //:LazyVGrid
+                        .padding()
+                        
                         // MARK: - FooterView
                         FooterView()
                             .padding(.horizontal)
+                        
                     }  //: VStack
                 })  //: ScrollView
             }  //:  VStack
