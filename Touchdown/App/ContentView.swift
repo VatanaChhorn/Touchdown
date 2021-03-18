@@ -46,6 +46,9 @@ struct ContentView: View {
                         })  //:LazyVGrid
                         .padding()
                         
+                        TitleView(title: "Brand")
+                        BrandGridView()
+                        
                         // MARK: - FooterView
                         FooterView()
                             .padding(.horizontal)

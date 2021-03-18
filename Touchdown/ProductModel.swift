@@ -28,6 +28,6 @@ struct Product: Codable, Identifiable {
     }
     
     var formattedPrice : String  {
-        return "#\(price)"
+        return "$\(price)"
     }
 }
