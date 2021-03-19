@@ -12,6 +12,7 @@ struct NavigationBarView: View {
     
     @State private var isAnimated: Bool = false
     
+    
     // MARK: - BODY
     var body: some View {
         HStack {
